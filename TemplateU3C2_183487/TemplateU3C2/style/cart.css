@@ -1,0 +1,17 @@
+#cart{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows:  repeat(4,400px);
+    gap:20px;
+
+}
+#cart>div{
+    width:400px;
+    height:400px;
+    border:2px solid red
+   
+}
+img{
+    width:400px;
+    height:250px;
+}
